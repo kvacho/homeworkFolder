@@ -1,0 +1,12 @@
+git init
+git branch -m main
+git remote add origin https://github.com/kvacho/homeworkFolder.git
+New-Item hello.txt
+nano hello.txt
+git add hello.txt
+git commit hello.txt -m "homeworked"
+git push -u origin main
+git pull https://github.com/kvacho/homeworkFolder.git
+nano pullme.txt
+git commit pullme.txt -m "from git"
+git push -u origin main
